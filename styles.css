@@ -1,0 +1,42 @@
+* {
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+* {box-sizing: border-box;}
+body{
+
+  width: 100%;
+  text-align: center;
+  background:gray;
+  padding-left : 25em;
+  padding-right: 25em;
+
+}
+h1{
+  font-size: 2em;
+}
+p{
+  font-size: .875em;
+  padding:1rem;
+}
+
+.card {
+
+  box-shadow: 2px 8px 2px 2px #ccc;
+
+  background:white;
+  border-radius: 15px;
+
+
+}
+
+.action{
+  padding: 8px;
+}
+
+button{
+border-radius: 15px;
+padding: 1em;
+
+}
