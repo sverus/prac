@@ -109,7 +109,7 @@ td {
 }
 
 /*button with div*/
-button {
+/* button {
 	background-color: #008080;
 	border: none;
 	color: white;
@@ -119,7 +119,7 @@ button {
 	display: inline-block;
 	font-size: 16px;
 	margin: 4px 2px;
-	cursor: pointer;
+	cursor: pointer; */
 }
 
 /*button without div*/
