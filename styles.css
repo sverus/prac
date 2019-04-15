@@ -1,42 +1,276 @@
-* {
 
+
+/* Main Website Styling */
+* {
 	font-family: 'Open Sans', sans-serif;
 }
+body{
+	font-size: 100%;
+	padding: 1em;
+}
+html {
+	/* font-size */
+}
 
+h1, h2, h3, h4, h5, h6 {
+	/* margins/spacing */
+}
+
+h1 {
+	font-size: 2.25em;
+	line-height: 1.33em;
+	margin-bottom: .67em;
+}
+
+h2 {
+	font-size: 1.75em;
+	line-height: 1.29em;
+	margin-bottom: .64em;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
+h4 {
+	font-size: 1.25em;
+	line-height: 1.2em;
+	margin-bottom: .6em;
+}
+
+h5 {
+	font-size: 1.125em;
+	line-height: 1.33em;
+	margin-bottom: .67em;
+}
+
+h6 {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: .75em;
+}
+
+p {
+	font-size: 1em;
+		line-height: 1.5em;
+		margin-bottom: .75em;
+
+}
+
+
+section{
+  padding: 10rem 0;
+  background-color: #ffffff;
+}
+
+a:link {
+  color: red;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color:  #cc3300;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+th{
+	text-align: left;
+	padding: 8px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+td {
+	text-align: left;
+	padding: 8px;
+}
+
+/*button with div*/
+button {
+	background-color: #008080;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+/*button without div*/
+.button{
+	background-color: #008080;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1{
+	background-color: #008080;
+	color: #ffffff ;
+}
+
+.button1:hover{
+	background-color: #003333;
+	color: #ffffff;
+}
+
+.button2{
+	background-color: #00004d;
+	color: #ffffff ;
+}
+
+.button2:hover{
+	background-color: #00001a;
+		color: #ffffff;
+}
+
+.button3{
+	background-color: #b3b3b3;
+	color: #000000;
+}
+
+.button3:hover{
+	background-color: #8c8c8c;
+		color: #000000;
+}
+
+.button4{
+	background-color: #e60000;
+	color: #ffffff ;
+}
+
+.button4:hover{
+	background-color: #b3b3b3;
+		color: #ffffff;
+}
+
+.button5{
+	background-color: #b3b3b3;
+	color: #ffffff;
+}
+
+.button5:hover{
+	background-color: #8c8c8c;
+		color: #000000;
+}
+
+ul {
+
+}
+
+ol {
+}
+
+.breadcrumb{
+
+}
+
+p.example {
+	border-style: outset;
+	background-color: #d9d9d9;
+	padding:.5em;
+	border-radius: 10px;
+}
+
+
+/* CSS for the style guide html file */
+
+.border {
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 1em;
+	margin: 1em 0;
+}
+/* Card Styling */
 * {box-sizing: border-box;}
 body{
-
-  width: 100%;
-  text-align: center;
-  background:gray;
-  padding-left : 25em;
+	background:gray;
+	padding-left : 25em;
   padding-right: 25em;
+	text-align: center;
+  width: 100%;
+  }
 
-}
 h1{
-  font-size: 2em;
+  font-size: 1.5em;
 }
+
 p{
   font-size: .875em;
-  padding:1rem;
-}
-
-.card {
-
-  box-shadow: 2px 8px 2px 2px #ccc;
-
-  background:white;
-  border-radius: 15px;
-
-
-}
-
-.action{
-  padding: 8px;
+  padding:.5em;
 }
 
 button{
 border-radius: 15px;
 padding: 1em;
 
+}
+
+.card {
+	background:white;
+  box-shadow: 2px 8px 2px 2px #ccc;
+}
+
+.card:hover{
+		transform: scale(1.10);
+	}
+
+.title{
+	padding: 1em;
+}
+
+.action{
+  padding: 8px;
+}
+
+
+.image{
+	height: 10em;
+	padding-top:  1em;
+  width: 50%;
+}
+
+	@media screen and (min-width: 1200px){
+
+		body{
+	  	padding-left : 30em;
+	  	padding-right: 30em;
+		}
+		.card-img{
+			height: 5em;
+	  	width: 40%;
+		}
 }
