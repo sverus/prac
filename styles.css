@@ -214,12 +214,13 @@ p.example {
 	padding: 1em;
 	margin: 1em 0;
 }
+
 /* Card Styling */
 * {box-sizing: border-box;}
 body{
 	background:gray;
-	padding-left : 25em;
-  padding-right: 25em;
+	/* padding-left : 25em;
+  padding-right: 25em; */
 	text-align: center;
   width: 100%;
   }
