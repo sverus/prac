@@ -217,10 +217,9 @@ p.example {
 
 /* Card Styling */
 * {box-sizing: border-box;}
+
 body{
 	background:gray;
-	/* padding-left : 25em;
-  padding-right: 25em; */
 	text-align: center;
   width: 100%;
   }
@@ -234,9 +233,10 @@ p{
   padding:.5em;
 }
 
-button{
+.card button{
 border-radius: 15px;
 padding: 1em;
+font size: 2em;
 
 }
 
