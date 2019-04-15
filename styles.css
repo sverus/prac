@@ -278,7 +278,7 @@ padding: 1em;
 @media handheld {
 	.card button{
 	border-radius: 15px;
-	font-size: 4em;
+	font-size: 8em;
 	padding: 1em;
 	}
 }
