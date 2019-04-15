@@ -1,7 +1,5 @@
 
 
-
-
 /* Main Website Styling */
 * {
 	font-family: 'Open Sans', sans-serif;
@@ -262,25 +260,25 @@ padding: 1em;
   width: 50%;
 }
 
-	@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px){
 
-		body{
-	  	padding-left : 30em;
-	  	padding-right: 30em;
+	body{
+	  padding-left : 30em;
+	  padding-right: 30em;
+	}
+	.card-img{
+		height: 5em;
+	  width: 40%;
+	}
+	.card:hover{
+		transform: scale(1.10);
 		}
-		.card-img{
-			height: 5em;
-	  	width: 40%;
-		}
-		.card:hover{
-				transform: scale(1.10);
-			}
+
 }
 @media screen and (max-width: 1200px){
 	.card button{
 	border-radius: 15px;
-	font-size: 3em;
+	font-size: 1em;
 	padding: 1em;
 	}
 }
-
