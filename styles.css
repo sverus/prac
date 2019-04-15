@@ -275,10 +275,10 @@ padding: 1em;
 	  	width: 40%;
 		}
 }
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1200px){
 	.card button{
 	border-radius: 15px;
-	font-size: 4em;
+	font-size: 2em;
 	padding: 1em;
 	}
 }
