@@ -236,7 +236,7 @@ p{
 .card button{
 border-radius: 15px;
 padding: 1em;
-font-size: 2em;
+
 
 }
 
@@ -274,4 +274,11 @@ font-size: 2em;
 			height: 5em;
 	  	width: 40%;
 		}
+}
+@media screen and (max-width: 1200px){
+	.card button{
+	border-radius: 15px;
+	font-size: 2em;
+	padding: 1em;
+	}
 }
