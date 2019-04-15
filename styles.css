@@ -1,5 +1,7 @@
 
 
+
+
 /* Main Website Styling */
 * {
 	font-family: 'Open Sans', sans-serif;
@@ -245,10 +247,6 @@ padding: 1em;
   box-shadow: 2px 8px 2px 2px #ccc;
 }
 
-.card:hover{
-		transform: scale(1.10);
-	}
-
 .title{
 	padding: 1em;
 }
@@ -274,6 +272,9 @@ padding: 1em;
 			height: 5em;
 	  	width: 40%;
 		}
+		.card:hover{
+				transform: scale(1.10);
+			}
 }
 @media screen and (max-width: 1200px){
 	.card button{
@@ -282,3 +283,4 @@ padding: 1em;
 	padding: 1em;
 	}
 }
+
